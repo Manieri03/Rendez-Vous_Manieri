@@ -14,7 +14,7 @@ namespace Rendez_Vous_Manieri
             int[] w = new int[1000];
 
             Thread t1 = new Thread(() => Minimo(v));
-            Thread t2 = new Thread(() => Media(v,w));
+            Thread t2 = new Thread(() => Media(v,w)); 
 
 
             t1.Start();
